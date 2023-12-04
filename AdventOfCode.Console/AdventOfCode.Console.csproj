@@ -14,4 +14,9 @@
     <ItemGroup>
         <None Include="Inputs\*.txt" CopyToOutputDirectory="Always" />
     </ItemGroup>
+    
+    <ItemGroup>
+      <Folder Include="Days\" />
+      <Folder Include="Inputs\" />
+    </ItemGroup>
 </Project>
