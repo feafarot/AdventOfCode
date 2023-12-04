@@ -10,14 +10,8 @@
     <ItemGroup>
       <PackageReference Include="Spectre.Console" Version="0.48.0" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Days\" />
-      <Folder Include="Inputs\" />
-    </ItemGroup>
     
     <ItemGroup>
-        <Content Include="Days\*.*" CopyToPublishDirectory="Always" />
+        <None Include="Inputs\*.txt" CopyToOutputDirectory="Always" />
     </ItemGroup>
-
 </Project>
