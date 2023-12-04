@@ -7,8 +7,9 @@ public class Day1Problem : IProblem
 {
     public string SolvePart1(IEnumerable<string> input)
     {
-        var resultPart1 = input.Sum(
-            line =>
+        var resultPart1 = input
+            .Where(x => !string.IsNullOrEmpty(x))
+            .Sum(line =>
             {
                 var span = line.AsSpan();
                 var first = (Value: default(char), Found: false);
