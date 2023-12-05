@@ -4,11 +4,13 @@
     <projectFile>AdventOfCode.Console/AdventOfCode.Console.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67996641-ee52-414b-abf9-9c7c18f6cc35" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode.Console/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="d6f59360-4137-4494-8118-d49cca98676f" name="Changes" comment="Proj files">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventOfCode.Console/Inputs/d1p1.test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode.Console/AdventOfCode.Console.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.Console/AdventOfCode.Console.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode.Console/Inputs/d1.test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.Console/Inputs/d1p2.test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,30 +20,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
+  "associatedIndex": 4
 }]]></component>
-  <component name="ProjectId" id="2Z6ChpYDelHGXwKKDja8f3p2WJS" />
+  <component name="ProjectId" id="2Z6IDQfw8nuEss50m8sMLGn8gRg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.AdventOfCode.Console.executor": "Debug",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "2023",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\feafarot\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\feafarot\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\feafarot\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="AdventOfCode.Console" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+    <configuration name="AdventOfCode.Console" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/AdventOfCode.Console/bin/Debug/net8.0/AdventOfCode.Console.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdventOfCode.Console/bin/Debug/net8.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -51,28 +67,45 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net8.0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.AdventOfCode.Console" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="67996641-ee52-414b-abf9-9c7c18f6cc35" name="Changes" comment="" />
-      <created>1701733265891</created>
+      <changelist id="d6f59360-4137-4494-8118-d49cca98676f" name="Changes" comment="" />
+      <created>1701735983621</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1701733265891</updated>
-      <workItem from="1701733268800" duration="10000" />
+      <updated>1701735983621</updated>
+      <workItem from="1701735987015" duration="311000" />
     </task>
+    <task id="LOCAL-00001" summary="Proj files">
+      <option name="closed" value="true" />
+      <created>1701736015586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701736015586</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Proj files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proj files" />
   </component>
 </project>
