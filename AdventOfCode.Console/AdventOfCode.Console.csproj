@@ -13,9 +13,8 @@
     
     <ItemGroup>
         <None Include="Inputs\*.txt" CopyToOutputDirectory="Always" />
-    </ItemGroup>
-    
-    <ItemGroup>
-      <Folder Include="Days\" />
+        <None Update="Inputs\d2p1.txt">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 </Project>
