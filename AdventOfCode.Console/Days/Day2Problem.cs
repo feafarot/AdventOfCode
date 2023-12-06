@@ -74,6 +74,37 @@ public class Day2Problem : IProblem
 
     public string SolvePart2(IEnumerable<string> input)
     {
-        return "";
+        var res = input.Sum(
+            line =>
+            {
+                var rootParts = line.Split(":");
+                int maxGreen = 1, maxBlue = 1, maxRed = 1;
+                foreach (var turn in rootParts[1].Split(";"))
+                {
+                    
+                    var reveals = turn.Split(new[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    for (var i = 0; i < reveals.Length; i += 2)
+                    {
+                        var amount = int.Parse(reveals[i]);
+                        var color = reveals[i + 1];
+                        switch (color)
+                        {
+                            case "green" when amount > maxGreen:
+                                maxGreen = amount;
+                                break;
+                            case "blue" when amount > maxBlue:
+                                maxBlue = amount;
+                                break;
+                            case "red" when amount > maxRed:
+                                maxRed = amount;
+                                break;
+                        } 
+                    }
+                }
+
+                var gamePower = maxGreen * maxBlue * maxRed;
+                return gamePower;
+            });
+        return res.ToString();
     }
 }
