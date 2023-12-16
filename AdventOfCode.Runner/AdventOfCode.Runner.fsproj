@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Types.fs" />
+        <Folder Include="Inputs\" />
+        <Compile Include="Days\Example.fs" />
+        <Compile Include="InputHelper.fs" />
+        <Compile Include="ProblemsFinder.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="Inputs\*.txt" CopyToOutputDirectory="Always" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="EluciusFTW.SpectreCoff" Version="0.48.1" />
+    </ItemGroup>
+    
+</Project>
